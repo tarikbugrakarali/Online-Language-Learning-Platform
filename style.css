@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body{
+    margin:0;
+    background-color:rgb(249, 249, 249);
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.navbar li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+.navbar li a {
+    text-decoration: none;
+    color:white;
+    font-size:24px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.entery{
+    margin-right: 350px;
+    text-align: center;
+    justify-content: center;
+}
+
+#title{
+    text-align: left;
+    display: inline-block;
+}
+#title h1{
+    font-size:3rem;
+    font-weight: 350;
+}
+#title h2{
+    font-size:2rem;
+    font-weight: 150;
+}
+#title h3{
+    font-size:1.5rem;
+    font-weight: 150;
+    color: dodgerblue;
+}
+#title h4{
+    font-size:1.2rem;
+    font-weight: 1;
+}
+.moon{
+    width: 100%;
+}
+@media (max-width: 600px){
+    .navbar ul{
+        display:none;
+    }
+    #title h2{
+        position: relative;
+        left:0;
+        top:-20px;
+        text-align: center;
+    }
+    .btn{
+        position: relative;
+        left:0;
+        top:-20px;
+        left:100px;
+    }
+    .moon{
+        width:80%;
+        margin: 0 40px 0 40px;
+    }
+    .scroll{
+        position: relative;
+        left:0;
+        margin: 0 0 0 130px;
+    }
+
+}
